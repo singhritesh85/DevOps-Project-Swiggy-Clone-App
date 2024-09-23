@@ -194,7 +194,7 @@ resource "aws_eks_node_group" "eksnode" {
 #----------------------------
 
 resource "aws_iam_role_policy" "eksnode_policy" {
-  name = "eksnode-policy"
+  name = "eksnode-policy-${var.env}"
   role = aws_iam_role.eksnoderole.id
 
   policy = file("autoscalepolicy.json")
