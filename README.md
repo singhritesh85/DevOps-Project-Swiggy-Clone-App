@@ -27,6 +27,8 @@ Finally you can access the Swiggy-Clone Application as shown in the screenshot a
 <br><br/>
 ```
 Source Code:- https://github.com/singhritesh85/Swiggy-Clone-App.git
+
+Helm Chart:-  https://github.com/singhritesh85/helm-repo-for-swiggy-clone.git
 ```
 <br><br/>
 <br><br/>
